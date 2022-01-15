@@ -530,7 +530,7 @@ collection section starts here
         grid-template-columns:repeat(3,1fr);
     }
     .brand-container{
-        width:80%;
+        width:92%;
         display:block;
         margin:auto;
     }
