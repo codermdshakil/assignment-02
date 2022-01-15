@@ -176,6 +176,9 @@ collection section starts here
     grid-column-gap:30px;
 }
 .single-box{
+    width: 90%;
+    display: block;
+    margin: auto;
     padding:14px 13px;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -190,6 +193,7 @@ collection section starts here
     margin-bottom: 6px;
 }
 .single-box img{
+    width: 100%;
     display: block;
     margin:0 auto;
     margin-bottom:5px;
@@ -422,18 +426,22 @@ collection section starts here
         line-height:55px;
     }
 
-    /* collection section starts  *
-    .collection-container {
-        width: 85%;
-        margin: auto;
-    }
+    /* collection section starts  */
+
     .collection-content{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-column-gap:30px;
     }
-    /* project section  */
+    
+    .collection-container {
+        width: 85%;
+        margin: auto;
+    }
 
+   
+    /* project section  */
+    
     .project-container {
         width: 88%;
         margin: auto;
@@ -545,16 +553,23 @@ collection section starts here
         margin-bottom:30px;
     }
     /* collection section starts here  */
-    .collection-container,
-    .project-container{
+    .collection-container{
         width: 77%;
         margin: auto;
     }
-    .collection-content,
-    .project-content{
+    .collection-content{
         display: grid;
         grid-template-columns:1fr;
     }
+    .project-container {
+        width: 80%;
+        margin: auto;
+    }
+    .project-content{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
 }
 
 
