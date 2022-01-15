@@ -540,23 +540,15 @@ collection section starts here
         margin-bottom:30px;
     }
     /* collection section starts here  */
-    .collection-container {
+    .collection-container,
+    .project-container{
         width: 77%;
         margin: auto;
     }
-    .collection-content{
+    .collection-content,
+    .project-content{
         display: grid;
         grid-template-columns:1fr;
-    }
-    /* project-section starts here */
-    .project-container {
-        width: 90%;
-        margin: auto;
-    }
-    .project-content{
-        display:grid;
-        grid-template-columns:1fr;
-        
     }
 }
 
